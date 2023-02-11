@@ -1,33 +1,33 @@
 ---
-- name: master01
+- name: k8s-master01
   box: ubuntu/jammy64
   hostname: master01
   ipaddress: 192.168.56.21
   memory: 1024
   cpus: 1
 
-- name: master02
+- name: k8s-master02
   box: ubuntu/jammy64
   hostname: master02
   ipaddress: 192.168.56.22
   memory: 1024
   cpus: 1
 
-- name: master03
+- name: k8s-master03
   box: ubuntu/jammy64
   hostname: master03
   ipaddress: 192.168.56.23
   memory: 1024
   cpus: 1
 
-- name: worker01
+- name: k8s-worker01
   box: ubuntu/jammy64
   hostname: worker01
   ipaddress: 192.168.56.24
   memory: 2048
   cpus: 1
 
-- name: worker02
+- name: k8s-worker02
   box: ubuntu/jammy64
   hostname: worker02
   ipaddress: 192.168.56.25
